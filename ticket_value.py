@@ -27,5 +27,5 @@ def total_value(ages, count_tickets):
             raise ValueError('Crianças com menos de 1 ano não pagam ingresso.')
         else:
             raise ValueError('A idade não pode ser negativa')
-    print('Valor total calculado com sucesso!')
+    print(f'Valor total calculado com sucesso!\n Total: {total}')
     return total
